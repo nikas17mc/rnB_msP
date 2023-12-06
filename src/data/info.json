@@ -1,0 +1,36 @@
+{
+    "depLoc":{
+        "1":"TXL",
+        "2":"FRA",
+        "3":"MUC",
+        "4":"DUS",
+        "5":"HAM",
+        "6":"STR",
+        "7":"CGN"
+    },
+    "driveOpt":{
+        "1":"Auto",
+        "2":"Bus",
+        "3":"Schiff (Fähre)",
+        "4":"Zug",
+        "5":"Flugzeug",
+        "6":"Fahrrad"
+    },
+    "starOpt":{
+        "1":"⭐",
+        "2":"⭐⭐",
+        "3":"⭐⭐⭐",
+        "4":"⭐⭐⭐⭐",
+        "5":"⭐⭐⭐⭐⭐"
+    },
+    "excurOpt":{
+        "beach":"Strandausflug",
+        "city":"Stadtbesichtigung",
+        "adventure":"Abenteuertour"
+    },
+    "extraOpt":{
+        "guide":"Reiseleiter",
+        "meals":"Verpflegungspaket",
+        "activities":"Zusätzliche Aktivitäten"
+    }
+}
