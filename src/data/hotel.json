@@ -1,164 +1,190 @@
 {
-    "hotels": [
-        {
-            "name": "Nature Boutique Hotel, Bangkok",
-            "location": "Bangkok",
-            "rating": 1,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        },
-        {
-            "name": "KS Guesthouse",
-            "location": null,
-            "rating": 1,
-            "priceRange": null,
-            "image": "./src/icons/my_picure.png",
-            "facilities": []
-        },
-        {
-            "name": "Borarn House Hotel",
-            "location": null,
-            "rating": 1,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        },
-        {
-            "name": "Sweet Loft Hotel Don Mueang",
-            "location": null,
-            "rating": 1,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        },
-        {
-            "name": "Romance Sukhumvit 97",
-            "location": null,
-            "rating": 2,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        },
-        {
-            "name": "Shanti Lodge Bangkok",
-            "location": null,
-            "rating": 2,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        },
-        {
-            "name": "Sri Krungthep Hotel",
-            "location": null,
-            "rating": 2,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        },
-        {
-            "name": "Warm Window Silom",
-            "location": null,
-            "rating": 2,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        },
-        {
-            "name": "Happy 3",
-            "location": null,
-            "rating": 3,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        },
-        {
-            "name": "Bangkok Oasis Hotel",
-            "location": null,
-            "rating": 3,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        },
-        {
-            "name": "Livotel Hotel Lat Phrao 130",
-            "location": null,
-            "rating": 3,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        },
-        {
-            "name": "Sukhumvit 20 Hotel",
-            "location": null,
-            "rating": 3,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        },
-        {
-            "name": "Novotel Bangkok Platinum Pratunam",
-            "location": null,
-            "rating": 4,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        },
-        {
-            "name": "Livotel Hotel Hua Mak",
-            "location": null,
-            "rating": 4,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        },
-        {
-            "name": "Novotel Bangkok on Siam Square",
-            "location": null,
-            "rating": 4,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        },
-        {
-            "name": "Lebua At State Tower, Bangkok",
-            "location": null,
-            "rating": 4,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        },
-        {
-            "name": "Kimpton Maa-Lai Bangkok",
-            "location": null,
-            "rating": 5,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        },
-        {
-            "name": "AVANI Riverside Bangkok Hotel",
-            "location": null,
-            "rating": 5,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        },
-        {
-            "name": "Anantara Riverside Bangkok Resort",
-            "location": null,
-            "rating": 5,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        },
-        {
-            "name": "Millennium Hilton Bangkok",
-            "location": null,
-            "rating": 5,
-            "priceRange": null,
-            "image": null,
-            "facilities": []
-        }
-    ]
+    "hotels": {
+        "1": [
+            {
+                "name": "Nature Boutique Hotel, Bangkok",
+                "location": "Bangkok",
+                "rating": "⭐",
+                "priceRange": null,
+                "image": null,
+                "facilities": [
+                    "#Free Wifi",
+                    "#Etwas",
+                    "#Beach"
+                ]
+            },
+            {
+                "name": "KS Guesthouse",
+                "location": null,
+                "rating": "⭐",
+                "priceRange": null,
+                "image": "./src/icons/my_picure.png",
+                "facilities": [
+                    "#Free Wifi",
+                    "#Etwas",
+                    "#Beach"
+                ]
+            },
+            {
+                "name": "Borarn House Hotel",
+                "location": null,
+                "rating": "⭐",
+                "priceRange": "$$$",
+                "image": null,
+                "facilities": [
+                    "#Free Wifi",
+                    "#Etwas",
+                    "#Beach"
+                ]
+            },
+            {
+                "name": "Sweet Loft Hotel Don Mueang",
+                "location": null,
+                "rating": "⭐",
+                "priceRange": null,
+                "image": null,
+                "facilities": [
+                    "#Free Wifi",
+                    "#Etwas",
+                    "#Beach"
+                ]
+            }
+        ],
+        "2": [
+            {
+                "name": "Romance Sukhumvit 97",
+                "location": null,
+                "rating": "⭐⭐",
+                "priceRange": null,
+                "image": null,
+                "facilities": []
+            },
+            {
+                "name": "Shanti Lodge Bangkok",
+                "location": null,
+                "rating": "⭐⭐",
+                "priceRange": null,
+                "image": null,
+                "facilities": []
+            },
+            {
+                "name": "Sri Krungthep Hotel",
+                "location": null,
+                "rating": "⭐⭐",
+                "priceRange": null,
+                "image": null,
+                "facilities": []
+            },
+            {
+                "name": "Warm Window Silom",
+                "location": null,
+                "rating": "⭐⭐",
+                "priceRange": null,
+                "image": null,
+                "facilities": []
+            }
+        ],
+        "3": [
+            {
+                "name": "Happy 3",
+                "location": null,
+                "rating": "⭐⭐⭐",
+                "priceRange": null,
+                "image": null,
+                "facilities": []
+            },
+            {
+                "name": "Bangkok Oasis Hotel",
+                "location": null,
+                "rating": "⭐⭐⭐",
+                "priceRange": null,
+                "image": null,
+                "facilities": []
+            },
+            {
+                "name": "Livotel Hotel Lat Phrao 130",
+                "location": null,
+                "rating": "⭐⭐⭐",
+                "priceRange": null,
+                "image": null,
+                "facilities": []
+            },
+            {
+                "name": "Sukhumvit 20 Hotel",
+                "location": null,
+                "rating": "⭐⭐⭐",
+                "priceRange": null,
+                "image": null,
+                "facilities": []
+            }
+        ],
+        "4": [
+            {
+                "name": "Novotel Bangkok Platinum Pratunam",
+                "location": null,
+                "rating": "⭐⭐⭐⭐",
+                "priceRange": null,
+                "image": null,
+                "facilities": []
+            },
+            {
+                "name": "Livotel Hotel Hua Mak",
+                "location": null,
+                "rating": "⭐⭐⭐⭐",
+                "priceRange": null,
+                "image": null,
+                "facilities": []
+            },
+            {
+                "name": "Novotel Bangkok on Siam Square",
+                "location": null,
+                "rating": "⭐⭐⭐⭐",
+                "priceRange": null,
+                "image": null,
+                "facilities": []
+            },
+            {
+                "name": "Lebua At State Tower, Bangkok",
+                "location": null,
+                "rating": "⭐⭐⭐⭐",
+                "priceRange": null,
+                "image": null,
+                "facilities": []
+            }
+        ],
+        "5": [
+            {
+                "name": "Kimpton Maa-Lai Bangkok",
+                "location": null,
+                "rating": "⭐⭐⭐⭐⭐",
+                "priceRange": null,
+                "image": null,
+                "facilities": []
+            },
+            {
+                "name": "AVANI Riverside Bangkok Hotel",
+                "location": null,
+                "rating": "⭐⭐⭐⭐⭐",
+                "priceRange": null,
+                "image": null,
+                "facilities": []
+            },
+            {
+                "name": "Anantara Riverside Bangkok Resort",
+                "location": null,
+                "rating": "⭐⭐⭐⭐⭐",
+                "priceRange": null,
+                "image": null,
+                "facilities": []
+            },
+            {
+                "name": "Millennium Hilton Bangkok",
+                "location": null,
+                "rating": "⭐⭐⭐⭐⭐",
+                "priceRange": null,
+                "image": null,
+                "facilities": []
+            }
+        ]
+    }
 }

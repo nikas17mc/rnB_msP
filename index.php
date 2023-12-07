@@ -1,6 +1,6 @@
 <?php 
-include('./src/extra/form.php');
-include('./src/extra/hotel-list.php');
+include('./src/extra/left.php');
+include('./src/extra/middle.php');
 ?>
 <!DOCTYPE html>
 <html lang="de">
@@ -101,17 +101,14 @@ include('./src/extra/hotel-list.php');
                         </p>
                         <p></p>
                     </div>
-            <?php }
-            ; ?>
+            <?php }; ?>
         </div>
         <div class="middle-column">
             <h3>Willkommen auf unsere Seite für die Buchung eines Ausfluges in Thailand!</h3>
             <?php
-            if (isset($_POST['submit'])) {
-                for($i=0;$i<=4;$i++){
-                    echo $hotelList;
+                foreach($hotelList as $hotelItem){
+                    echo $hotelItem;
                 };
-            };
             ?>
         </div>
         <div class="right-column">
