@@ -17,7 +17,7 @@ function fetchCurrency(){
 document.getElementById("amount").onkeyup = function () {
     let put = document.getElementById("amount"); 
     let res = document.getElementById("result");
-    put.value == 0 ? res.innerHTML = "Endergebnis:" + "<br/>" + " " : res.innerHTML = "Endergebnis:" + "<br/>" + (parseFloat(put.value) * info).toFixed(2) + " ฿";
+    put.value == 0 ? res.innerHTML = "Endergebnis:" + " " : res.innerHTML = "Endergebnis:" + " " + (parseFloat(put.value) * info).toFixed(2) + " ฿";
 };
 window.onscroll = function() {
     document.body.scrollTop > 400 || document.documentElement.scrollTop > 400 ? downB.style.display = "none" : downB.style.display = "block";

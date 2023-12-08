@@ -73,9 +73,9 @@ Uhahahahah i have nothing to show youuuuu, uuuuuuuuuuuuu!!!!!!!
 <div class=\"depLoc_outer_box\">
     <div class=\"depLoc_inner_box\">
         <p>
-            <span class=\"depLoc_txt\">$departureLocation</span>
+            <span class=\"depLoc_txt_left\">$departureLocation</span>
             <span class=\"arrow\"><i class=\"fa fa-arrow-right\"></i></span>
-            <span class=\"depLoc_txt\">BAG</span>
+            <span class=\"depLoc_txt_right\">BAG</span>
         </p>
         <p class=\"time_txt\">
             <span class=\"txt_name_time\">Dauer:</span>
@@ -102,9 +102,9 @@ Uhahahahah i have nothing to show youuuuu, uuuuuuuuuuuuu!!!!!!!
     "
 <div class=\"depLoc_outer_box\">
     <div class=\"depLoc_inner_box\">
-        <p><span class=\"depLoc_txt\">
+        <p><span class=\"depLoc_txt_left\">
                 $departureLocation
-            </span><span class=\"arrow\"><i class=\"fa fa-arrow-right\"></i></span><span class=\"Loc\">BAG</span></p>
+            </span><span class=\"arrow\"><i class=\"fa fa-arrow-right\"></i></span><span class=\"depLoc_txt_right\">BAG</span></p>
         <p class=\"time_txt\"><span class=\"txt_name_time\">Dauer:</span><span class=\"txt_name_time\">
                 $depLocTime
             </span></p>

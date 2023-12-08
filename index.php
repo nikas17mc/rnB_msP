@@ -1,4 +1,4 @@
-<?php 
+<?php
 include('./src/extra/left.php');
 include('./src/extra/middle.php');
 ?>
@@ -13,6 +13,7 @@ include('./src/extra/middle.php');
     <link rel="shortcut icon" href="./src/icons/my_picure.png" src="./src/icons/my_picure.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
 
     <div class="container">
@@ -76,49 +77,123 @@ include('./src/extra/middle.php');
                 </form>
             <?php } else { ?>
                 <h3>Ihre ausgewählte Angaben und Informationen:</h3>
-                    <div class="auswahl_angaben">
-                        <p>Transportmittel:
-                            <?php echo $drive ?>
-                        </p>
-                        <?php echo transpCost[$_POST["drive"]] ?>
-                        <p>Sterne:
-                            <?php echo $star ?>
-                        </p>
-                        <p>Abenteueroptionen:
-                            <?php echo $excursion ?>
-                        </p>
-                        <p>Teilnehmer:
-                            <?php echo $participants ?>
-                        </p>
-                        <p>Extra:
-                            <?php echo $extras ?>
-                        </p>
-                        <p>Abreise:
-                            <?php echo $departureDate ?>
-                        </p>
-                        <p>Reisedauer:
-                            <?php echo $tripDuration ?>
-                        </p>
-                        <p></p>
-                    </div>
-            <?php }; ?>
+                <div class="auswahl_angaben">
+                    <p>Transportmittel:
+                        <?php echo $drive ?>
+                    </p>
+                    <?php echo transpCost[$_POST["drive"]] ?>
+                    <p>Sterne:
+                        <?php echo $star ?>
+                    </p>
+                    <p>Abenteueroptionen:
+                        <?php echo $excursion ?>
+                    </p>
+                    <p>Teilnehmer:
+                        <?php echo $participants ?>
+                    </p>
+                    <p>Extra:
+                        <?php echo $extras ?>
+                    </p>
+                    <p>Abreise:
+                        <?php echo $departureDate ?>
+                    </p>
+                    <p>Reisedauer:
+                        <?php echo $tripDuration ?>
+                    </p>
+                    <p></p>
+                </div>
+            <?php }
+            ; ?>
         </div>
         <div class="middle-column">
             <h3>Willkommen auf unsere Seite für die Buchung eines Ausfluges in Thailand!</h3>
             <?php
-                foreach($hotelList as $hotelItem){
-                    echo $hotelItem;
-                };
+            foreach ($hotelList as $hotelItem) {
+                echo $hotelItem;
+            }
+            ;
             ?>
         </div>
         <div class="right-column">
             <h3>Hier können Sie die wichtige Dinge schnell überprüfen:</h3>
             <label style="text-align:left;" for="amount">Betrag:</label>
             <input oninput="numberValidate(this)" style="margin-bottom: 3px; width:73%;" type="number" id="amount"
-                placeholder="Geben Sie hier den Betrag ein"><span> €</span><br />
+                placeholder="Geben Sie hier den Betrag ein"><span style="font-size:22px;font-weight:600;">
+                €</span><br />
             <small>Das heutige Kurs ist: <em id="cur"></em></small>
             <div class="result_box">
-                <p style="color:black;" id="result">Endergebnis: </p>
+                <p id="result">Endergebnis: </p>
+            </div>
+            <div class="line-break"></div>
+            <div class="rule_list_outer">
+                <div class="rule_list_inner">
+                    <div class="rule_head">
+                        <p class="rule_head_parag">FAQ</p>
+                    </div>
+                    <div class="line-break"></div>
+                    <div class="rule_body">
+                        <div class="rule_body_item">
+                            <a href="#modal_0">
+                                <div class="faq_item_head">
+                                    <p>Darf ich im Zug ohne Fahrschein fahren?</p>
+                                </div>
+                            </a>
+                            <div id="modal_0" class="modal faq_item_body">
+                                <p>
+
+                                </p>
+                                <a href="#" class="box-close">
+                                    ×
+                                </a>
+                            </div>
+                        </div>
+                        <div class="rule_body_item">
+                            <a href="#modal_1">
+                                <div class="faq_item_head">
+                                    <p>Darf ich im Zug ohne Fahrschein fahren?</p>
+                                </div>
+                            </a>
+                            <div id="modal_1" class="modal faq_item_body">
+                                <p>
+
+                                </p>
+                                <a href="#" class="box-close">
+                                    ×
+                                </a>
+                            </div>
+                        </div>
+                        <div class="rule_body_item">
+                            <a href="#modal_2">
+                                <div class="faq_item_head">
+                                    <p>Darf ich im Zug ohne Fahrschein fahren?</p>
+                                </div>
+                            </a>
+                            <div id="modal_2" class="modal faq_item_body">
+                                <p>
+
+                                </p>
+                                <a href="#" class="box-close">
+                                    ×
+                                </a>
+                            </div>
+                        </div>
+                        <div class="rule_body_item">
+                            <a href="#modal_3">
+                                <div class="faq_item_head">
+                                    <p>Darf ich im Zug ohne Fahrschein fahren?</p>
+                                </div>
+                            </a>
+                            <div id="modal_3" class="modal faq_item_body">
+                                <p>
+
+                                </p>
+                                <a href="#" class="box-close">
+                                    ×
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

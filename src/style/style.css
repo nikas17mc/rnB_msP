@@ -1,7 +1,12 @@
 :root {
     --b: black;
     --w: white;
-    --lt_transp:rgba(121, 121, 121, 0.5);
+    --charcoal: #264653;
+    --saffron: #E9C46A;
+    --burnt_sienna: #E76F51;
+    --persian_gree: #2A9D8F;
+    --sandy_brown: #F4A261;
+    --lt_transp: rgba(121, 121, 121, 0.5);
 }
 
 body {
@@ -34,15 +39,20 @@ body {
 .right-column {
     flex: 35%;
     padding: 20px;
-    background: #3498db;
+    background: var(--charcoal);
     color: var(--w);
     text-align: left;
+}
+
+.right-column {
+    background: var(--persian_gree);
+    padding:10px;
 }
 
 .middle-column {
     flex: 60%;
     padding: 20px;
-    background: #f1c40f;
+    background: var(--burnt_sienna);
     box-sizing: border-box;
 }
 
@@ -98,6 +108,7 @@ select:hover {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    margin-left: 50px;
 }
 
 #sendB:hover {
@@ -105,12 +116,18 @@ select:hover {
 }
 
 .result_box {
-    padding-left: 5px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding: 10px;
     border-radius: 11px;
-    background: var(--w);
+    background: var(--sandy_brown);
     margin-top: 16px;
+    width: fit-content;
+}
+
+#result {
+    color: var(--charcoal);
+    width: auto;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 .auswahl_angaben p {
@@ -125,7 +142,8 @@ select:hover {
 .depLoc_outer_box {
     width: 100%;
     height: auto;
-    background: var(--w);
+    background: var(--persian_gree);
+    color: var(--burnt_sienna);
     border-radius: 8px;
     padding: 10px;
     margin-left: -4%;
@@ -133,14 +151,21 @@ select:hover {
 
 .depLoc_inner_box {
     width: 100%;
-    color: black;
+    color: var(--w);
     text-align: center;
 }
 
-.depLoc_txt {
+.depLoc_txt_left {
     font-size: 18px;
     font-weight: 700;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--w);
+}
+.depLoc_txt_right {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--burnt_sienna)
 }
 
 .arrow {
@@ -165,6 +190,7 @@ select:hover {
     font-weight: 400;
     margin-right: 34%;
     margin-left: -6%;
+    color: var(--b);
 }
 
 .lineTime {
@@ -190,12 +216,13 @@ select:hover {
     font-size: 16px;
     font-weight: 600;
     font-style: italic;
+    color: var(--b);
 }
 
 .container_hotel {
     display: flex;
     align-items: flex-start;
-    border: 3px solid #ddd;
+    border: 3px solid var(--sandy_brown);
     padding: 0px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -208,7 +235,7 @@ select:hover {
 
 .box_image img {
     width: 100%;
-    height:100%;
+    height: 100%;
     object-fit: cover;
     border-radius: 3px 0 0 3px;
 }
@@ -228,19 +255,20 @@ select:hover {
     margin: 0;
     text-align: left;
     font-size: 18px;
-    font-weight: 600;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding:5px;
-    margin:1px;
-    background:var(--lt_transp);
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    margin: 1px;
+    /* background:var(--lt_transp); */
     border-radius: 0 3px 0 0;
+    color: #313638;
 }
 
 .priceRating {
-    padding:2px;
+    padding: 2px;
     text-decoration: underline;
     text-align: left;
-    margin-top:10px;
+    margin-top: 10px;
     margin-left: 10px;
     font-size: 20px;
     font-weight: 700;
@@ -253,33 +281,37 @@ select:hover {
     justify-content: space-around;
     width: 100%;
 }
-.box_facilities_outer{
+
+.box_facilities_outer {
     width: 100%;
-    padding:10px;
+    padding: 10px;
 }
-.box_facilities_inner{
+
+.box_facilities_inner {
     width: fit-content;
-    padding:10px;
-    color:black;
+    padding: 10px;
+    color: black;
     border-radius: 11px;
-    background:white;
+    background: white;
 }
-.box_facilities_inner span{
+
+.box_facilities_inner span {
     font-style: italic;
     text-decoration: underline;
-    color:rgb(8, 0, 255);
+    color: rgb(8, 0, 255);
     font-weight: 400;
-    margin-right:4px;
+    margin-right: 4px;
 }
+
 .box_extra_info {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-top: -40px;
-    margin-right:5px;
+    margin-right: 5px;
 }
 
-.location_hotel{
+.location_hotel {
     margin-bottom: 20px;
     margin-left: -45px;
     text-align: left;
@@ -289,17 +321,107 @@ select:hover {
     letter-spacing: 1px;
 }
 
-.star_hotel{}
+.rule_list_outer {
+    background: var(--charcoal);
+    padding: 10px;
+}
 
+.rule_list_inner .line-break {
+    background: var(--sandy_brown)
+}
 
+.rule_list_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.rule_head {
+    width: 100%;
+    height: 30px;
+    background: var(--burnt_sienna);
+    padding-left: 5px;
+}
 
+.rule_head_parag {
+    font-size: 22px;
+    font-weight: 750;
+    letter-spacing: 0.7px;
+    line-height: 26px;
+    color: var(--charcoal);
+    margin: 0px;
+}
 
+.rule_body {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.rule_body_item {
+    width: 100%;
+    border-radius: 8px;
+    background: var(--persian_gree);
+    margin: 2px;
+}
 
+.faq_item_head {
+    padding: 5px;
+}
 
+.faq_item_head p {
+    margin: 0px;
+    padding: 2px;
+    text-align: center;
+}
+.faq_item_body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    min-width: 400px;
+    background: var(--saffron);
+    color: var(--burnt_sienna);
+  }
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
 
+.modal:target {
+    display:block; /* Stellen Sie sicher, dass das Modal über anderen Elementen liegt */
+}
+.rule_content{
+    position: absolute;
+    background: white;
+    width: 400px;
+    padding: 1em 2em;
+    border-radius: 4px;
+}
 
+.box-close {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: #fe0606;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.line-break {
+    width: 100%;
+    height: 2px;
+    background: var(--charcoal);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 #extras {
     scrollbar-width: none;
@@ -311,9 +433,7 @@ select:hover {
     position: fixed;
     bottom: 40px;
     right: 30px;
-    z-index: 99;
     border: none;
-    outline: none;
     color: white;
     cursor: pointer;
     padding: 15px;
