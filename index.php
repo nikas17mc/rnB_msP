@@ -106,13 +106,22 @@ include('./src/extra/middle.php');
             ; ?>
         </div>
         <div class="middle-column">
-            <h3>Willkommen auf unsere Seite für die Buchung eines Ausfluges in Thailand!</h3>
-            <?php
-            foreach ($hotelList as $hotelItem) {
-                echo $hotelItem;
-            }
-            ;
-            ?>
+            <div class="middle_header">
+                <div class="header_logo">
+                    <img src="./src/picture/page_logo.png" alt="Bangkok_Logo">
+                </div>
+                <div class="header_h">
+                    <h3>Willkommen auf unsere Seite für die Buchung eines <span class="ueberschrift_txt">Ausfluges in
+                            Thailand!</span></h3>
+                </div>
+            </div>
+            <div class="middle_main">
+                <?php
+                foreach ($hotelList as $hotelItem) {
+                    echo $hotelItem;
+                };
+                ?>
+            </div>
         </div>
         <div class="right-column">
             <h3>Hier können Sie die wichtige Dinge schnell überprüfen:</h3>
@@ -133,62 +142,132 @@ include('./src/extra/middle.php');
                     <div class="line-break"></div>
                     <div class="rule_body">
                         <div class="rule_body_item">
-                            <a href="#modal_0">
+                            <a class="rule_body_item_link" href="#modal_0">
                                 <div class="faq_item_head">
-                                    <p>Darf ich im Zug ohne Fahrschein fahren?</p>
+                                    <p>Jedes Glücksspiel ist verboten und ein klares warum NEIN!</p>
                                 </div>
                             </a>
                             <div id="modal_0" class="modal faq_item_body">
                                 <p>
-
+                                    Das Glücksspiel in Thailand, egal welches, ist ebenfalls illegal und verboten.
+                                    Die einzige Ausnahme in diesem Fall: die von der Regierung gesponserte zweimonatige
+                                    Lotterie,
+                                    die Sie an jeder Straßenecke von den Verkäufern kaufen können.
+                                    Wenn Sie nach Thailand kommen und dabei Lust haben, auf einen Muay Thai Kampf ein
+                                    Fußballspiel oder auf ein sonstiges Ereignis zu wetten,
+                                    könnten Sie dabei erwischt werden und zu einer harten Strafe verurteilt werden.
+                                    Thailand hat sogar einen ganzen Abschnitt, der alleine den Spielkarten gewidmet ist,
+                                    den sogenannten Spielkarten-Act. Dieses Gesetz verbietet es sogar einer einzelnen
+                                    Person,
+                                    mehr als 120 Spielkarten zu besitzen.
                                 </p>
                                 <a href="#" class="box-close">
-                                    ×
+                                    X
                                 </a>
                             </div>
                         </div>
                         <div class="rule_body_item">
-                            <a href="#modal_1">
+                            <a class="rule_body_item_link" href="#modal_1">
                                 <div class="faq_item_head">
-                                    <p>Darf ich im Zug ohne Fahrschein fahren?</p>
+                                    <p>Respektlosigkeit gegenüber Münzen oder Geldscheinen!</p>
                                 </div>
                             </a>
                             <div id="modal_1" class="modal faq_item_body">
                                 <p>
-
+                                    Wenn ihnen in Deutschland versehentlich eine Münze oder ein Geldschein herunter
+                                    fällt ist man schnell gewillt,
+                                    die Münze oder den Geldschein mit den Füssen am davon rollen oder wegfliegen zu
+                                    stoppen.
+                                    Da kümmert niemand und keiner wird sich darüber Gedanken machen. In Thailand sollten
+                                    sie das allerdings unbedingt vermeiden,
+                                    wenn sie von den Thailändern nicht schief angesehen werden wollen. In Thailand ist
+                                    in der Tat auf jeder Münze und auf jeder Banknote das Gesicht des Königs von
+                                    Thailand aufgedruckt.
+                                    Daher wird es hier als sehr respektlos angesehen, wenn sie sich nicht um die
+                                    thailändische Währung kümmern und sie mit Füssen treten.
+                                    Bekanntlich hat Thailand einige der strengsten Gesetze, wenn es darum geht, die
+                                    Monarchie zu respektieren.
+                                    Laut dem dafür zuständigen Artikel 112, können sie für eine Beleidung des Königs
+                                    oder des Königshauses bis zu 15 Jahren hinter Gittern landen.
                                 </p>
                                 <a href="#" class="box-close">
-                                    ×
+                                    X
                                 </a>
                             </div>
                         </div>
                         <div class="rule_body_item">
-                            <a href="#modal_2">
+                            <a class="rule_body_item_link" href="#modal_2">
                                 <div class="faq_item_head">
-                                    <p>Darf ich im Zug ohne Fahrschein fahren?</p>
+                                    <p>Keine Nationalflaggen anderer Länder hissen</p>
                                 </div>
                             </a>
                             <div id="modal_2" class="modal faq_item_body">
                                 <p>
-
+                                    Zugegeben, die wenigsten Touristen hissen ihre Landesflagge, wenn sie in Thailand zu
+                                    Besuch sind. Doch so mancher fühlt sich vielleicht mit einem Flaggensymbol wohl oder
+                                    möchte ein erinnerungsträchtiges Foto schießen. Keine gute Idee, denn in ganz
+                                    Thailand ist es verboten, fremde Flaggen zu tragen oder zu hissen. Es droht auch
+                                    hier eine Gefängnisstrafe. Einzig die Botschaft oder die Residenz der Diplomaten ist
+                                    berechtigt, andere Fahnen als die thailändische zu hissen.
                                 </p>
                                 <a href="#" class="box-close">
-                                    ×
+                                    X
                                 </a>
                             </div>
                         </div>
                         <div class="rule_body_item">
-                            <a href="#modal_3">
+                            <a class="rule_body_item_link" href="#modal_3">
                                 <div class="faq_item_head">
-                                    <p>Darf ich im Zug ohne Fahrschein fahren?</p>
+                                    <p>Gebräuche beim Essen</p>
                                 </div>
                             </a>
                             <div id="modal_3" class="modal faq_item_body">
                                 <p>
+                                    Traditionell wird in Thailand mit der rechten Hand gegessen. Die linke Hand gilt
+                                    hingegen als unrein, da diese zur Reinigung beim Toilettengang verwendet wird.
 
+                                    Anders als bei uns wird oft kein eigenes Essen bestellt, sondern es werden mehrere
+                                    Gerichte in die Mitte des Tisches gestellt, so dass sich jeder bedienen kann.
+                                    Vorsicht ist beim Umgang mit den Stäbchen geboten. Diese sollte man keinesfalls
+                                    senkrecht in den Reis stecken, sondern immer nur danebenlegen. Senkrechte
+                                    Essstäbchen erinnern an ein Totenritual, bei dem Räucherstäbchen für Verstorbene
+                                    angezündet werden. Dein Gegenüber könnte so also denken, dass du ihm den Tod
+                                    wünschst. Zu den guten Tischmanieren gehört es außerdem, sich am Tisch vor
+                                    Anwesenden nicht die Nase zu putzen.
+
+                                    Auch beim Bezahlen existieren kulturelle Unterschiede. Oftmals übernimmt in Thailand
+                                    noch die Person mit dem höchsten Einkommen die Rechnung. Daher wird man
+                                    möglicherweise beim Essen nach dem Gehalt gefragt oder es wird davon ausgegangen,
+                                    dass man als Ausländer das höchste Einkommen hat. Viele Thais zahlen jedoch auch
+                                    ganz normal und erwarten nicht, dass sie eingeladen werden.
                                 </p>
                                 <a href="#" class="box-close">
-                                    ×
+                                    X
+                                </a>
+                            </div>
+                        </div>
+                        <div class="rule_body_item">
+                            <a class="rule_body_item_link" href="#modal_3">
+                                <div class="faq_item_head">
+                                    <p>Verhaltensregeln während der Nationalhymne</p>
+                                </div>
+                            </a>
+                            <div id="modal_3" class="modal faq_item_body">
+                                <p>
+                                    Täglich um 8:00 und 18:00 Uhr wird die thailändische Nationalhymne im Radio und
+                                    Fernsehen gespielt. Auch an einigen öffentlichen Orten, wie Bahnhöfen, Parks oder
+                                    Shopping Malls ertönt die Nationalhymne zu dieser Uhrzeit.
+
+                                    Wichtig dabei zu wissen ist, dass man während der Nationalhymne aufsteht und
+                                    innehält. Läuft man einfach weiter und ignoriert dies, handelt es sich um eine
+                                    Ordnungswidrigkeit, welche mit einem Bußgeld bestraft werden kann.
+
+                                    Ähnliches gilt für die Königshymne, welche unabhängig von der Uhrzeit bei royalen
+                                    Veranstaltungen oder auch bei Filmvorführungen im Kino abgespielt wird. Auch hier
+                                    müssen sich alle Anwesenden erheben und für die Dauer der Königshymne innehalten.
+                                </p>
+                                <a href="#" class="box-close">
+                                    X
                                 </a>
                             </div>
                         </div>

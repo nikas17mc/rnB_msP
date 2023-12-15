@@ -3,7 +3,7 @@ let cur = document.getElementById('cur');
 let url = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/eur/thb.json?" + Math.random(); 
 let downB = document.getElementById('downB');
 let upB = document.getElementById('upB');
-function numberValidate(number) { number.value = number.value.replace(/[^0-9.,]/g, ""); 
+function numberValidate(number) { number.value = number.value.replace(/[^0-9,.]/g, ""); 
 }; 
 window.addEventListener("load",function(){ 
     fetchCurrency() 
@@ -14,7 +14,7 @@ function fetchCurrency(){
     cur.innerHTML = info.toFixed(4) + " ฿"; 
     }).catch(error => console.error(error, "Couldn't fetch currency of THB!"));
 };
-document.getElementById("amount").onkeyup = function () {
+document.getElementById("amount").on = function () {
     let put = document.getElementById("amount"); 
     let res = document.getElementById("result");
     put.value == 0 ? res.innerHTML = "Endergebnis:" + " " : res.innerHTML = "Endergebnis:" + " " + (parseFloat(put.value) * info).toFixed(2) + " ฿";
@@ -25,7 +25,7 @@ window.onscroll = function() {
 };
 function down_jump(){
     window.scrollTo({
-        top: 1200,
+        top: 1500,
         behavior: 'smooth'
 });
 };

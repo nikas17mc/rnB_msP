@@ -2,6 +2,7 @@
     "hotels": {
         "1": [
             {
+                "link":"./page/hotel_1.1.php",
                 "name": "Nature Boutique Hotel, Bangkok",
                 "location": "Bangkok",
                 "rating": "⭐",
@@ -10,6 +11,7 @@
                 "facilities": []
             },
             {
+                "link":"./page/hotel_1.2.php",
                 "name": "KS Guesthouse",
                 "location": "Bangkok",
                 "rating": "⭐",
@@ -18,6 +20,7 @@
                 "facilities": []
             },
             {
+                "link":"./page/hotel_1.3.php",
                 "name": "Borarn House Hotel",
                 "location": "Bangkok",
                 "rating": "⭐",
@@ -26,6 +29,7 @@
                 "facilities": []
             },
             {
+                "link":"./page/hotel_1.4.php",
                 "name": "Sweet Loft Hotel Don Mueang",
                 "location": "Bangkok",
                 "rating": "⭐",
@@ -36,6 +40,7 @@
         ],
         "2": [
             {
+                "link":"./page/hotel_2.1.php",
                 "name": "Romance Sukhumvit 97",
                 "location": "Bangkok",
                 "rating": "⭐⭐",
@@ -44,6 +49,7 @@
                 "facilities": []
             },
             {
+                "link":"./page/hotel_2.2.php",
                 "name": "Shanti Lodge Bangkok",
                 "location": "Bangkok",
                 "rating": "⭐⭐",
@@ -52,6 +58,7 @@
                 "facilities": []
             },
             {
+                "link":"./page/hotel_2.3.php",
                 "name": "Sri Krungthep Hotel",
                 "location": "Bangkok",
                 "rating": "⭐⭐",
@@ -60,6 +67,7 @@
                 "facilities": []
             },
             {
+                "link":"./page/hotel_2.4.php",
                 "name": "Warm Window Silom",
                 "location": "Bangkok",
                 "rating": "⭐⭐",
@@ -70,6 +78,7 @@
         ],
         "3": [
             {
+                "link":"./page/hotel_3.1.php",
                 "name": "Happy 3",
                 "location": "Bangkok",
                 "rating": "⭐⭐⭐",
@@ -78,6 +87,7 @@
                 "facilities": []
             },
             {
+                "link":"./page/hotel_3.2.php",
                 "name": "Bangkok Oasis Hotel",
                 "location": "Bangkok",
                 "rating": "⭐⭐⭐",
@@ -86,6 +96,7 @@
                 "facilities": []
             },
             {
+                "link":"./page/hotel_3.3.php",
                 "name": "Livotel Hotel Lat Phrao 130",
                 "location": "Bangkok",
                 "rating": "⭐⭐⭐",
@@ -94,6 +105,7 @@
                 "facilities": []
             },
             {
+                "link":"./page/hotel_3.4.php",
                 "name": "Sukhumvit 20 Hotel",
                 "location": "Bangkok",
                 "rating": "⭐⭐⭐",
@@ -104,6 +116,7 @@
         ],
         "4": [
             {
+                "link":"./page/hotel_4.1.php",
                 "name": "Novotel Bangkok Platinum Pratunam",
                 "location": "Bangkok",
                 "rating": "⭐⭐⭐⭐",
@@ -112,6 +125,7 @@
                 "facilities": []
             },
             {
+                "link":"./page/hotel_4.2.php",
                 "name": "Livotel Hotel Hua Mak",
                 "location": "Bangkok",
                 "rating": "⭐⭐⭐⭐",
@@ -120,6 +134,7 @@
                 "facilities": []
             },
             {
+                "link":"./page/hotel_4.3.php",
                 "name": "Novotel Bangkok on Siam Square",
                 "location": "Bangkok",
                 "rating": "⭐⭐⭐⭐",
@@ -128,6 +143,7 @@
                 "facilities": []
             },
             {
+                "link":"./page/hotel_4.4.php",
                 "name": "Lebua At State Tower, Bangkok",
                 "location": "Bangkok",
                 "rating": "⭐⭐⭐⭐",
@@ -138,6 +154,7 @@
         ],
         "5": [
             {
+                "link":"./page/hotel_5.1.php",
                 "name": "Kimpton Maa-Lai Bangkok",
                 "location": "Bangkok",
                 "rating": "⭐⭐⭐⭐⭐",
@@ -146,6 +163,7 @@
                 "facilities": []
             },
             {
+                "link":"./page/hotel_5.2.php",
                 "name": "AVANI Riverside Bangkok Hotel",
                 "location": "Bangkok",
                 "rating": "⭐⭐⭐⭐⭐",
@@ -154,6 +172,7 @@
                 "facilities": []
             },
             {
+                "link":"./page/hotel_5.3.php",
                 "name": "Anantara Riverside Bangkok Resort",
                 "location": "Bangkok",
                 "rating": "⭐⭐⭐⭐⭐",
@@ -162,6 +181,7 @@
                 "facilities": []
             },
             {
+                "link":"./page/hotel_5.4.php",
                 "name": "Millennium Hilton Bangkok",
                 "location": "Bangkok",
                 "rating": "⭐⭐⭐⭐⭐",
