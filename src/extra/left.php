@@ -26,7 +26,7 @@ function fullCost($drive, $travelJson, $participants)
     switch ($drive) {
         case "Auto":
             $a = 0.05; # Liter für 1 km
-            $b = 850; # 750 km Reichweite
+            $b = 850; # 850 km Reichweite
             $c = $travelJson["auto"][$_POST["departureLocation"]]; # <= z.B. 11783,9 km
             $d = ceil($c / $b); # <= 15,71186
             $e = "ca. " . number_format(((($a * $b) * 1.80) * $d), 2) . " €";

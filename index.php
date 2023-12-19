@@ -15,7 +15,32 @@ include('./src/extra/middle.php');
 </head>
 
 <body>
-
+    <div class="main_header">
+        <div class="main_header-container">
+            <div class="main_header-list">
+            <a href=""><div class="main_header-list_block"><p>Home</p></div></a>
+            <a href=""><div class="main_header-list_block"><p>About</p></div></a>
+            <a href=""><div class="main_header-list_block"><p>Impressum</p></div></a>
+            <a href=""><div class="main_header-list_block"><p>Something</p></div></a>
+            </div>
+            <div class="main_header-login_container">
+                <div id="myProfile" class="login_box-fullLogin">
+                    <a href="#">
+                        <div class="fullLogin_user-img">
+                            <img src="./src/picture/user-png_default.png" alt="User_Picture" loading="lazy">
+                        </div>
+                    </a>
+                </div>
+                <div id="signBox" class="login_box-requiredLogin">
+                    <a href="#" class="signUp-In">
+                        <div class="sign_up_txt-box">
+                            <p>Sign Up/Sign In</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="left-column">
             <?php if (!isset($_POST['submit'])) { ?>
@@ -77,6 +102,7 @@ include('./src/extra/middle.php');
                 </form>
             <?php } else { ?>
                 <h3>Ihre ausgewählte Angaben und Informationen:</h3>
+                <div class="line-break"></div>
                 <div class="auswahl_angaben">
                     <p>Transportmittel:
                         <?php echo $drive ?>
